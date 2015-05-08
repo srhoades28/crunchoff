@@ -1,0 +1,134 @@
+/********************************************************
+Crunch-Off General
+********************************************************/
+body{
+	margin:0;
+	padding:0;
+}
+
+/********************************************************
+Crunch-Off Header - Header
+********************************************************/
+nav {
+	background:linear-gradient(0deg,#fff, #ccc);
+	width:100%;
+	height:100px;
+	margin:0px;
+	font-size:.75rem;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	list-style-type:none;
+	width:100%;
+}
+nav ul li{
+	display:inline-block;
+}
+
+nav ul li.contribute{
+	width:24.5%;
+	text-align:center;
+	position:relative;
+	height:50px;
+}
+
+nav ul li.contribute a{
+	width:100%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+nav ul li.contribute a img{
+	display:block;
+	margin:0 auto;
+	width:150px;
+}
+
+nav ul li.leaderboard{
+	width:24.5%;
+	text-align:center;
+	position:relative;
+	height:50px;
+}
+
+nav ul li.leaderboard a{
+	width:100%;
+	display:block;
+	margin-left:auto;
+}
+
+nav ul li.leaderboard a img{
+	display:block;
+	margin:0 auto;
+	width:150px;
+}
+
+nav ul li#logo{
+	width:50%;
+
+}
+
+nav ul li#logo a{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+nav ul li#logo a img{
+	display:block;
+	width:400px;
+	margin:0 auto;
+}
+/********************************************************
+Input Form
+********************************************************/
+
+table{
+	position:relative;
+	top:150px;
+	margin:0 auto;
+
+}
+
+.crunch{
+	font-size:2rem;
+	font-weight:bold;
+	padding: 15px;
+	width:250px;
+	text-align:center;
+}
+
+.url_iframe{
+	padding:15px;
+	width:50px;
+}
+
+tbody tr:nth-child(2n) {
+  background:#f0f3f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
